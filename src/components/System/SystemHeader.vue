@@ -1,11 +1,11 @@
 <template>
-    <nav>
-        <ul>
-            <li v-for="navlogo in navLogoList" :key="navlogo">
-                <a> {{navlogo}}</a>
-            </li>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li v-for="navlogo in navLogoList" :key="navlogo">
+        <a> {{navlogo}}</a>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>

@@ -1,15 +1,16 @@
 <template >
-    <section>
-        <aside class="sidebar Red">3
-        </aside>
-        <section>
-            <nav class="navbar orangered">2</nav>
-            <section class="content yellow">5
+  <div class="contain">
+    <aside class="sidebar Red">3
+    </aside>
+    <section class="mainSection">
+      <system-header class="navbar"></system-header>
+      <!-- <nav class="navbar orangered">2</nav> -->
+      <!-- <section class="content yellow">5
                 <article class="blue">4</article>
-            </section>
-            <footer class="green">6</footer>
-        </section>
+            </section> -->
+      <footer class="green">6</footer>
     </section>
+  </div>
 </template>
 
 <script>
@@ -30,20 +31,26 @@ export default {
 
 <style scopedSlots>
 .navbar {
-  position: relative;
-  height: 3rem;
-  width: calc(100% - 250px);
-  right: 0%;
+  height: 80px;
   padding: 30px;
 }
+
+.mainSection {
+  padding-bottom: 0;
+  position: relative;
+  float: right;
+  width: calc(100% - 250px);
+  right: 0px;
+  display: inline-block;
+}
+
 .sidebar {
-  position: fixed;
+  display: inline-block;
   top: 0px;
-  height: 100vh;
+  height: 100%;
   width: 250px;
 }
 .content {
-  display: inline-block;
   position: relative;
 }
 .Red {

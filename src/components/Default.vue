@@ -1,6 +1,8 @@
 <template >
   <div class="contain">
-    <aside class="sidebar Red">3
+    <aside class="sidebar Red">
+      3
+      <br> 43
     </aside>
     <section class="mainSection">
       <system-header class="navbar"></system-header>
@@ -47,7 +49,7 @@ export default {
 .sidebar {
   display: inline-block;
   top: 0px;
-  height: 100%;
+  /* min-height: 100vh; */
   width: 250px;
 }
 .content {

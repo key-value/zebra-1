@@ -2,7 +2,24 @@
   <main>
     <header></header>
     <aside></aside>
-    <section></section>
+    <section>
+      section<br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br> asddddddddddd
+      <br>
+    </section>
     <footer></footer>
   </main>
 </template>
@@ -28,22 +45,22 @@ header,
 footer {
   margin: 10px 0;
   background: red;
-  width: 960px;
+  width: 100%;
   height: 30px;
   display: inline-block;
 }
 aside {
+  display: block;
   float: left;
-  width: 680px;
   height: 250px;
+  width: 30%;
   color: #ffffff;
   background-color: #333333;
 }
 section {
   background: black;
   float: right;
-  width: 270px;
-  height: 250px;
+  width: 70%;
   background-color: #999999;
 }
 </style>

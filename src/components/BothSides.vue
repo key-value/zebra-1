@@ -41,13 +41,21 @@ main {
   margin-right: auto;
   width: 960px;
 }
-header,
-footer {
+header {
   margin: 10px 0;
   background: red;
   width: 100%;
   height: 30px;
   display: inline-block;
+}
+footer {
+  position: absolute;
+  bottom: 10px;
+  left: auto;
+  right: auto;
+  background: red;
+  height: 30px;
+  width: 960px;
 }
 aside {
   display: block;
